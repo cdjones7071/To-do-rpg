@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	background-color: #C4EFFD;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#title{
+	border-radius: 50%;
+    width: 100%;
+    height: 50px;
+	display: block;
+	margin-bottom: -10px;
+	font-size:30px;
+}
+
+.button {
+	float:right;
+	display: inline-block;
+	padding:5px 8px;
+	text-transform: uppercase;
+	border: 2px solid #3CC0EC;
+	font-size: 20px;
+}
+
+#task-list-container {
+	margin: 0px auto;
+}
+
+.task {
+	   border: solid 2px #2A86A5;
+	    border-radius: 60px 40px 30px 40px;
+	    width: 500px;
+	    height: 190px;
+	    display: inline-block;
+	    margin: .5%;
+	    vertical-align: top;
+	    background-color: #FFFFFF;
+	    text-align: center;
+	    position: relative;
+	    top: 160px;
+}
+
+.task div {
+	display: inline-block;
+}
+
+.complete {
+	border-radius: 20%;
+	width: 500px;
+	height: 500px;
+	font-size: 23px;
+	position: relative;
+	right: 70px;
+}
+
+.check-complete,
+.check-incomplete {
+	border-radius: 10%;
+	width: 50px;
+	height: 50px; 
+	width: 17px;
+	height: 17px;
+	border: 2px solid #404A54;
+	font-weight: 700;
+	line-height: 15px;
+	font-size: 19px;
+}
+
+.check-incomplete {
+	color: #EF0851;
+}
+
+.check-complete {
+	color: #8BDD61;
+}
+
+.status {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px; 
+	margin: 5px;
+}
+
+
+.incomplete .check-complete span,
+.completed .check-incomplete span {
+
+	border-radius: 10%;
+	width: 500px;
+	height: 500px; 
+	display: none;
+}
+
+.title {
+	border-radius: 90px 90px 0 0;
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #8DDEF9;
+	margin-bottom: 20px;
+}
+
+.title span {
+	border-radius: 50%;
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+}
+
+.value {
+	padding: 8px;
+	border-radius: 50%;
+	background-color: #8DDEF9;
+	border: 2px solid #C4EFFD;
+	float: right;
+	position: relative;
+	top: 44px;
+}
+
+.time-created {
+	position: absolute;
+	top: 140px;
+	bottom: 8px;
+	right: 8px;
+	text-align: right;
+}
+
+#circle.hidden {
+	display: none;
+}
+
+#circle {
+	border-radius: 50%;
+	width: 500px;
+	height: 500px; 
+	margin: 30px auto;
+	color: #F6F7FB;
+	font-family: "Oswald",sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	border: 2px solid #E5E9EE;
+	background-color: #17ABDC;
+	position: relative;
+	top: 140px;
+}
+
+
+
+#circle .button {
+	font-size: 16px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+#circle p {
+	margin-top: 10px;
+	font-size: 24px;
+}
